@@ -1,0 +1,207 @@
+{
+  "project": {
+    "name": "CryptoMine",
+    "description": "Plateforme complète de minage Bitcoin avec conformité TVA",
+    "version": "1.0.0",
+    "author": "CryptoMine Team",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/USERNAME/cryptomine-website.git"
+    }
+  },
+  "deployment": {
+    "platforms": [
+      {
+        "name": "GitHub Pages",
+        "type": "github-pages",
+        "enabled": true,
+        "url": "https://USERNAME.github.io/cryptomine-website",
+        "domain_free": true,
+        "https": true,
+        "auto_deploy": true,
+        "setup_time": "4 minutes"
+      },
+      {
+        "name": "Vercel",
+        "type": "vercel",
+        "enabled": true,
+        "url": "https://cryptomine-website.vercel.app",
+        "domain_free": true,
+        "https": true,
+        "auto_deploy": true,
+        "setup_time": "3 minutes"
+      },
+      {
+        "name": "Netlify",
+        "type": "netlify",
+        "enabled": true,
+        "url": "https://cryptomine-XXXXX.netlify.app",
+        "domain_free": true,
+        "https": true,
+        "auto_deploy": true,
+        "setup_time": "2 minutes"
+      }
+    ],
+    "recommended": "github-pages",
+    "multi_platform": true
+  },
+  "features": {
+    "website": {
+      "sections": 7,
+      "blog_articles": 6,
+      "pricing_plans": 3,
+      "responsive": true,
+      "seo_optimized": true,
+      "security_headers": true,
+      "https": true
+    },
+    "mobile_app": {
+      "tabs": 15,
+      "screens": 15,
+      "features": [
+        "Mining Dashboard",
+        "Miner Management",
+        "Marketplace",
+        "Rewards & Wallet",
+        "Mining Pools",
+        "Notifications",
+        "Analytics",
+        "Blog SEO",
+        "Webinars",
+        "Compliance Scoring",
+        "Payment Integration",
+        "SMS Alerts",
+        "Accounting Partners",
+        "Bitcoin News",
+        "AI Insights"
+      ]
+    },
+    "integrations": {
+      "stripe": {
+        "enabled": true,
+        "description": "Paiements sécurisés par carte bancaire"
+      },
+      "twilio": {
+        "enabled": true,
+        "description": "Notifications SMS et alertes"
+      },
+      "openai": {
+        "enabled": true,
+        "description": "Recommandations IA personnalisées"
+      }
+    }
+  },
+  "seo": {
+    "keywords": [
+      "minage bitcoin",
+      "crypto mining",
+      "conformité TVA",
+      "bitcoin professionnel",
+      "pool de minage",
+      "hashrate",
+      "récompenses crypto"
+    ],
+    "sitemap": "sitemap.xml",
+    "robots": "robots.txt",
+    "meta_description": "CryptoMine - Plateforme complète de minage Bitcoin avec conformité TVA, webinaires, et partenariats comptables",
+    "og_image": "https://cryptomine.com/og-image.png"
+  },
+  "performance": {
+    "page_size_kb": 21,
+    "load_time_seconds": 0.8,
+    "lighthouse_score": 95,
+    "mobile_friendly": true,
+    "cdn": "enabled"
+  },
+  "security": {
+    "https": true,
+    "hsts": true,
+    "csp": true,
+    "x_frame_options": "DENY",
+    "x_content_type_options": "nosniff",
+    "referrer_policy": "strict-origin-when-cross-origin"
+  },
+  "analytics": {
+    "google_analytics": {
+      "enabled": false,
+      "tracking_id": "G-XXXXXXXXXX"
+    },
+    "conversion_tracking": {
+      "enabled": false,
+      "goal": "User Signup"
+    }
+  },
+  "automation": {
+    "scripts": [
+      {
+        "name": "auto-deploy.py",
+        "type": "python",
+        "description": "Automatisation complète du déploiement",
+        "platforms": ["github-pages", "vercel", "netlify"]
+      },
+      {
+        "name": "auto-deploy.sh",
+        "type": "bash",
+        "description": "Automatisation complète du déploiement (Bash)",
+        "platforms": ["github-pages", "vercel", "netlify"]
+      }
+    ],
+    "ci_cd": {
+      "enabled": false,
+      "provider": "github-actions",
+      "auto_deploy_on_push": true
+    }
+  },
+  "domain": {
+    "free_domain": "cryptomine.netlify.app",
+    "custom_domain": {
+      "enabled": false,
+      "domain": "cryptomine.com",
+      "registrar": "namecheap",
+      "cost_per_year": 12,
+      "setup_time": "24-48 hours"
+    }
+  },
+  "monitoring": {
+    "uptime": {
+      "enabled": false,
+      "provider": "uptime.com",
+      "check_interval": 5
+    },
+    "ssl_certificate": {
+      "provider": "Let's Encrypt",
+      "auto_renewal": true,
+      "expiry_days": 90
+    }
+  },
+  "backup": {
+    "enabled": true,
+    "frequency": "daily",
+    "storage": "github",
+    "retention_days": 30
+  },
+  "documentation": {
+    "files": [
+      "QUICK_START.md",
+      "DEPLOYMENT_GUIDE.md",
+      "AUTO_DEPLOY_GUIDE.md",
+      "github-pages-deploy.md",
+      "vercel-deploy.md",
+      "README.md",
+      "PROJECT_STATUS.md",
+      "FINAL_SUMMARY.txt"
+    ]
+  },
+  "contact": {
+    "email": "support@cryptomine.com",
+    "website": "https://cryptomine.com",
+    "github": "https://github.com/cryptomine",
+    "twitter": "https://twitter.com/cryptomine"
+  },
+  "license": {
+    "type": "MIT",
+    "year": 2025,
+    "author": "CryptoMine Team"
+  }
+}
